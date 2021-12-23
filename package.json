@@ -1,6 +1,6 @@
 {
   "name": "cypress-linenotify-reporter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Cypress Test Reporter via LINE Notify",
   "main": "src/",
   "author": "Traitanit Huangsri <traitanit.huangsri@gmail.com>",
