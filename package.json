@@ -1,0 +1,33 @@
+{
+  "name": "cypress-linenotify-reporter",
+  "version": "0.0.1",
+  "description": "Cypress Test Reporter via LINE Notify",
+  "main": "index.js",
+  "author": "Traitanit Huangsri <traitanit.huangsri@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "16.13.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "pretty-ms": "^7.0.1",
+    "sinon": "^12.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "cypress": "^9.2.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "mocha": "^9.1.3",
+    "prettier": "2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "unit": "mocha src/"
+  }
+}
