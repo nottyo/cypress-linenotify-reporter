@@ -27,7 +27,6 @@
   "scripts": {
     "prepare": "husky install",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "unit": "mocha src/"
+    "cypress:run": "cypress run"
   }
 }
