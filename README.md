@@ -4,10 +4,6 @@ To notify Cypress Test Results via [LINE Notify](https://notify-bot.line.me/)
 
 ![enter image description here](https://github.com/nottyo/cypress-linenotify-reporter/raw/main/images/ss.png)
 
-## Prerequisite
-
-`node.js` 16 or later
-
 ## Installation
 
 For `yarn` users
