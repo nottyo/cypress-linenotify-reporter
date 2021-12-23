@@ -1,12 +1,12 @@
 {
   "name": "cypress-linenotify-reporter",
-  "version": "0.0.4",
+  "version": "0.0.3-1",
   "description": "Cypress Test Reporter via LINE Notify",
   "main": "src/",
   "author": "Traitanit Huangsri <traitanit.huangsri@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">16"
+    "node": ">= 6"
   },
   "keywords": [
     "cypress",
@@ -20,7 +20,7 @@
     "url": "https://github.com/nottyo/cypress-linenotify-reporter.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "src/*.js"
